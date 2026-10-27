@@ -1,0 +1,23 @@
+<body id="bg" style="background:#0172a9; color:#00ffcc; text-align:center; font-family:sans-serif; padding-top:15%;">
+
+  <h1 style="text-shadow: 0 0 10px #00ffcc;">i wanna shower with dudes like females</h1>
+  <p>WELCOMEEEE TO FISH TERRITORY</p>
+  
+  <button onclick="toggleGlow()" style="padding:15px 25px; font-size:16px; border-radius:30px; border:none; cursor:pointer; font-weight:bold; background:#00ffcc; color:#0172a9; box-shadow: 0 0 15px #00ffcc;">
+    switch mode
+  </button>
+
+  <script>
+    function toggleGlow() {
+      let body = document.getElementById('bg');
+      if (body.style.background === 'rgb(1, 114, 169)' || body.style.background === '#0172a9') {
+        body.style.background = '#ff007f';
+        body.style.color = '#ffffff';
+      } else {
+        body.style.background = '#0172a9';
+        body.style.color = '#00ffcc';
+      }
+    }
+  </script>
+
+</body>
